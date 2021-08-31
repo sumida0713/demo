@@ -1,11 +1,7 @@
-x=2
-y=5
-if x > y:
-    print('xはyより大きい')
-elif x == y:
-    print('xとyは等しい')
-else:
-    print('xはyより小さい')
+num = 1
 
-# test
-print('Hello Python!')
+for i in range(1, 10):
+    num *= 2
+    print(i, num)
+    if num > 20:
+        break
