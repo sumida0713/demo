@@ -1,14 +1,14 @@
-num = 1
+import sys
 
-for i in range(1, 10):
-    num *= 2
-    print(i, num)
-    if num > 40:
-        break
+print(sys.version)
 
-hoge = 1
-for r in range(1, 10):
-    hoge *= 2
-    print(r, hoge)
-    if hoge > 40:
-        break
+
+x = 2
+y = 2
+
+if x > y:
+    print('Xがおおきい')
+elif y > x:
+    print('Yがおおきい')
+else:
+    print('同じ')
